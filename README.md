@@ -14,6 +14,7 @@ These contributions are licensed under the MIT License. See `LICENSE-Su322` for 
 ```
 docker-compose up -d --build
 ```
+docker启动失败请直接手动拉取python:3.11-buster镜像。\
 对于前端部分，见services/frontend/README.md
 
 参考：https://testdriven.io/blog/developing-a-single-page-app-with-fastapi-and-vuejs/
