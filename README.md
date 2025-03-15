@@ -13,8 +13,11 @@ These contributions are licensed under the MIT License. See `LICENSE-Su322` for 
 鉴于网络问题（卡半天），将原有前端部分移出docker-compose.yml，单独运行。对于后端和数据库服务，使用命令：  
 ```
 docker-compose up -d --build
+docker-compose exec backend aerich init -t src.core.database.config.TORTOISE_ORM
+docker-compose exec backend aerich init-db
 ```
 docker启动失败请直接手动拉取python:3.11-buster镜像。\
+\
 对于前端部分，见services/frontend/README.md
 
 参考：https://testdriven.io/blog/developing-a-single-page-app-with-fastapi-and-vuejs/
