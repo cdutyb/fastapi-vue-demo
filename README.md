@@ -6,6 +6,7 @@ This project is based on the original repository by TestDriven.io under the MIT 
 
 The following changes have been made in this fork:
 1. 浏览器变窄时点击按钮展开导航栏。
+2. 修正了tortoise-orm和pydantic的版本冲突。
 
 These contributions are licensed under the MIT License. See `LICENSE-Su322` for details.
 
